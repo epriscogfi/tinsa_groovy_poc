@@ -5,56 +5,56 @@ package com.tinsa.groovy_poc.utils
  */
 class Constantes {
 /** Constante MAIL. */
-    static final String MAIL = "MAIL"
+    String MAIL = "MAIL"
 
     /** Constante SMS. */
-    static final String SMS = "SMS"
+    String SMS = "SMS"
 
     /** Constante FAX. */
-    static final String FAX = "FAX"
+    String FAX = "FAX"
 
     /** Constante WHATCHA. */
-    static final String WHATCHA = "WHATCHA"
+    String WHATCHA = "WHATCHA"
 
     /** Constante SERVICE_SMS_URL. */
-    static final String SERVICE_SMS_URL = "http://localhost:9100/tinsa/sms"
+    String SERVICE_SMS_URL = "http://localhost:9100/tinsa/sms"
 
     /** Constante PARAM_PHONE. */
-    static final String PARAM_PHONE = "phone"
+    String PARAM_PHONE = "phone"
 
     /** Constante PARAM_MESSAGE. */
-    static final String PARAM_MESSAGE = "message"
+    String PARAM_MESSAGE = "message"
 
     /** Constante RESULT_OK. */
-    static final int RESULT_OK = 200
+    int RESULT_OK = 200
 
     /** Constante ESTADO_ENVIADO. */
-    static final int ESTADO_ENVIADO = 1
+    int ESTADO_ENVIADO = 1
 
     /** Constante ESTADO_NO_ENVIADO. */
-    static final int ESTADO_NO_ENVIADO = 0
+    int ESTADO_NO_ENVIADO = 0
 
     /** Constante DESTINO. */
-    static final String DESTINO = "666251478"
+    String DESTINO = "666251478"
 
     /** Constante TIPO_ENVIO. */
-    static final String TIPO_ENVIO = "SMS"
+    String TIPO_ENVIO = "SMS"
 
     /** Constante MENSAJE. */
-    static final String MENSAJE = "Mensaje"
+    String MENSAJE = "Mensaje"
 
     /** Constante ESTADO. */
-    static final Integer ESTADO = 1
+    Integer ESTADO = 1
 
     /** Constante OTRO_DESTINO. */
-    static final String OTRO_DESTINO = "677258547"
+    String OTRO_DESTINO = "677258547"
 
     /** Constante OTRO_TIPO_ENVIO. */
-    static final String OTRO_TIPO_ENVIO = "MAIL"
+    String OTRO_TIPO_ENVIO = "MAIL"
 
     /** Constante OTRO_MENSAJE. */
-    static final String OTRO_MENSAJE = "Otro mensaje"
+    String OTRO_MENSAJE = "Otro mensaje"
 
     /** Constante OTRO_ESTADO. */
-    static final Integer OTRO_ESTADO = 0
+    Integer OTRO_ESTADO = 0
 }
