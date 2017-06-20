@@ -18,6 +18,10 @@ class NotificarSMSImpl implements NotificarMensaje{
     /** Mensaje a notificar. */
     Mensaje msg
 
+    NotificarSMSImpl(Mensaje msg) {
+        this.msg = msg
+    }
+
     @Override
     ResultadoNotificar tratarMensaje() {
 
@@ -37,7 +41,7 @@ class NotificarSMSImpl implements NotificarMensaje{
         resultNotify.setCodEstadoMensaje(codEstMsg)
         resultNotify.setDescEstadoMensaje(descEstMsg)
 
-        resturn resultNotify
+        return resultNotify
     }
 
 }

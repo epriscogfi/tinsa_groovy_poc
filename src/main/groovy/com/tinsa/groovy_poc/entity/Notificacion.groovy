@@ -19,4 +19,14 @@ class Notificacion {
     String tipoEnvio;
     String mensaje;
     Integer estado;
+
+    Notificacion(String destino, String tipoEnvio, String mensaje, Integer estado) {
+        this.destino = destino
+        this.tipoEnvio = tipoEnvio
+        this.mensaje = mensaje
+        this.estado = estado
+    }
+
+    Notificacion() {
+    }
 }
